@@ -329,10 +329,13 @@ input, select { font-family: var(--font); }
 .blk-reset:hover { color: var(--amber); background: rgba(232,162,61,.12); }
 
 @media (max-width: 560px) {
-  .blk { flex-wrap: wrap; padding: 14px 14px 14px 18px; }
-  .blk-handle { width: 26px; }
-  .blk-timer { order: 3; margin: 6px auto 0; }
-  .blk-side { flex-direction: row; order: 4; margin-left: auto; gap: 14px; }
+  .blk {
+    flex-direction: column; align-items: stretch; flex-wrap: nowrap;
+    gap: 10px; padding: 16px 14px 14px 34px;
+  }
+  .blk-handle { position: absolute; left: 4px; top: 0; bottom: 0; width: 22px; height: auto; }
+  .blk-main, .blk-timer, .blk-side { width: 100%; margin: 0; }
+  .blk-side { flex-direction: row; justify-content: flex-end; gap: 14px; }
   /* sem hover em touch: os ajustes +5/-5 ficam sempre visíveis */
   .timer-quick { opacity: 1; max-height: 24px; margin-top: 1px; }
   .timer-btn, .blk-del, .blk-reset, .color-dot { min-width: 34px; min-height: 34px; }
@@ -529,7 +532,7 @@ input, select { font-family: var(--font); }
 // 2. Cole a URL e a chave "anon public" do projeto (Project Settings → API)
 // 3. Rode o SQL do schema (tabela "blocks" + RLS) no SQL Editor do projeto
 const SUPABASE_URL = 'https://wydvugsgmfctnkclsdcd.supabase.co';
-const SUPABASE_ANON_KEY = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Ind5ZHZ1Z3NnbWZjdG5rY2xzZGNkIiwicm9sZSI6ImFub24iLCJpYXQiOjE3ODkzMjc3NjcsImV4cCI6MjEwNDkwMzc2N30.Bl_35Q9WBpz-m7o2SaxJ274YnDEFl17XbnfsM5c7Mlc'; // cole a chave completa
+const SUPABASE_ANON_KEY = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Ind5ZHZ1Z3NnbWZjdG5rY2xzZGNkIiwicm9sZSI6ImFub24iLCJpYXQiOjE3ODkzMjc3NjcsImV4cCI6MjEwNDkwMzc2N30.Bl_35Q9WBpz-m7o2SaxJ274YnDEFl17XbnfsM5c7Mlc';
 const supa = window.supabase.createClient(SUPABASE_URL, SUPABASE_ANON_KEY);
 let currentUser = null;
 

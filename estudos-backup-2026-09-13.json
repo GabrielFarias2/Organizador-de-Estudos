@@ -1,0 +1,184 @@
+{
+  "app": "organizador-estudos",
+  "storageKey": "organizador-estudos-v1",
+  "exportedAt": "2026-09-13T20:28:48.220Z",
+  "blocks": [
+    {
+      "id": "b0-mtioldsz",
+      "name": "Matemática",
+      "color": "hsl(230, 58%, 54%)",
+      "priority": "alta",
+      "time": null,
+      "goalMin": 30,
+      "order": 0,
+      "sessions": {
+        "2026-09-01": 5848.088,
+        "2026-09-02": 4109.808,
+        "2026-09-03": 26919.502,
+        "2026-09-04": 248.262,
+        "2026-09-09": 2166.798,
+        "2026-09-10": 5205.303,
+        "2026-09-11": 24459.486,
+        "2026-09-12": 18814.112
+      },
+      "active": null
+    },
+    {
+      "id": "b4-mtioldsz",
+      "name": "Física",
+      "color": "hsl(30, 58%, 54%)",
+      "priority": "alta",
+      "time": null,
+      "goalMin": 20,
+      "order": 1,
+      "sessions": {
+        "2026-09-04": 843.376,
+        "2026-09-12": 0.919
+      },
+      "active": null
+    },
+    {
+      "id": "b5-mtioldsz",
+      "name": "Química",
+      "color": "#e8a23d",
+      "priority": "alta",
+      "time": null,
+      "goalMin": 20,
+      "order": 2,
+      "sessions": {
+        "2026-09-07": 0,
+        "2026-09-10": 438.195
+      },
+      "active": null
+    },
+    {
+      "id": "bpbseivhmtiolto7",
+      "name": "Inglês",
+      "color": "hsl(180, 58%, 54%)",
+      "priority": "alta",
+      "time": null,
+      "goalMin": 20,
+      "order": 3,
+      "sessions": {
+        "2026-09-01": 1394.287,
+        "2026-09-03": 11.562,
+        "2026-09-05": 14400,
+        "2026-09-07": 1044.983
+      },
+      "active": null
+    },
+    {
+      "id": "bdpgkvg2mtn53gpb",
+      "name": "Simulado",
+      "color": "hsl(120, 58%, 54%)",
+      "priority": "alta",
+      "time": null,
+      "goalMin": 60,
+      "order": 4,
+      "sessions": {
+        "2026-09-04": 4712.738,
+        "2026-09-07": 623.87,
+        "2026-09-08": 8351.998
+      },
+      "active": null,
+      "checks": {
+        "2026-09-07": false
+      }
+    },
+    {
+      "id": "b1-mtioldsz",
+      "name": "Português",
+      "color": "#7c5cbf",
+      "priority": "alta",
+      "time": null,
+      "goalMin": 20,
+      "order": 5,
+      "sessions": {
+        "2026-09-06": 6998.154,
+        "2026-09-07": 5167.731
+      },
+      "active": null,
+      "checks": {
+        "2026-09-07": false
+      }
+    },
+    {
+      "id": "b3knkipumtteplxl",
+      "name": "Revisão",
+      "color": "hsl(240, 58%, 54%)",
+      "priority": "media",
+      "time": null,
+      "goalMin": 15,
+      "order": 6,
+      "sessions": {
+        "2026-09-09": 2112.592
+      },
+      "active": null,
+      "checks": {}
+    },
+    {
+      "id": "b9h9oq4lmtq2tffh",
+      "name": "Redação",
+      "color": "hsl(280, 58%, 54%)",
+      "priority": "media",
+      "time": null,
+      "goalMin": 40,
+      "order": 7,
+      "sessions": {
+        "2026-09-06": 21713.57
+      },
+      "active": null
+    },
+    {
+      "id": "b3-mtioldsz",
+      "name": "História",
+      "color": "hsl(0, 58%, 54%)",
+      "priority": "media",
+      "time": null,
+      "goalMin": 20,
+      "order": 8,
+      "sessions": {
+        "2026-09-05": 1224.064
+      },
+      "active": null
+    },
+    {
+      "id": "b2-mtioldsz",
+      "name": "Geografia",
+      "color": "#3e7c4a",
+      "priority": "media",
+      "time": null,
+      "goalMin": 20,
+      "order": 9,
+      "sessions": {
+        "2026-09-07": 1.221
+      },
+      "active": null,
+      "checks": {
+        "2026-09-07": false
+      }
+    },
+    {
+      "id": "b6-mtioldsz",
+      "name": "Biologia",
+      "color": "#5fa85b",
+      "priority": "media",
+      "time": null,
+      "goalMin": 20,
+      "order": 10,
+      "sessions": {},
+      "active": null
+    },
+    {
+      "id": "b7-mtioldsz",
+      "name": "Filosofia",
+      "color": "#8c7a66",
+      "priority": "media",
+      "time": null,
+      "goalMin": 20,
+      "order": 11,
+      "sessions": {},
+      "active": null
+    }
+  ]
+}
